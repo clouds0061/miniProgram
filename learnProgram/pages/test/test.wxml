@@ -1,0 +1,14 @@
+<!--test.wxml-->
+<view class='container'>
+  <view class='text'>
+    <text>测试测试</text>
+  </view>
+  <view class='map'>
+    <map longitude="{{longitudes}}" latitude="{{latitudes}}" scale='11.0'></map>
+  </view>
+  <view class='btn_container'>
+    <button bindtap='addLongitude'>增加</button>
+    <button bindtap='desLongitude'>减少</button>
+  </view>
+        
+</view>
