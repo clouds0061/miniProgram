@@ -1,1 +1,21 @@
 /* pages/mini_block/block.wxss */
+page{
+  height: 100%;
+  width: 100%;
+}
+.test{
+  
+  height: 90%;
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+.block_canvas{
+  width: 100%;
+  height: 100%;
+  border: 2px solid slateblue;
+  background-color: red;
+  position: absolute;
+  top:10%;
+  
+}
