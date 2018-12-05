@@ -1,3 +1,7 @@
 <view class = "test">
-  <view class="block_canvas" ></view>
+  <canvas class="block_canvas" canvas-id='canvas'></canvas>
+  
+  <view>
+    <button bindtap='btnStart' class='btn_start'>开始</button>
+  </view>
 </view>
